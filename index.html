@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS : Homework - 2</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+         }
+        header {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100px;
+            background:linear-gradient(black,rgb(95, 95, 95));
+            padding: 15px 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 10px 40px;
+            font-size: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+
+        }
+        nav a:hover {
+            background-color: white;
+            color: black;
+            border-radius: 5px;
+        }
+
+        .gallery {
+            margin: 25px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 25px;
+            padding: 20px;
+        }
+
+       .gallery img {
+          width: 30%; 
+          height: 80vh; 
+        }
+
+        footer{
+            display: flex;
+            background-color: black;
+            gap: 20px;
+            height: 90vh;
+            gap: 50px;
+        }
+
+        p{
+            color: white;
+            padding-top: 30vh;
+            padding-left: 30px;
+            font-size: 24px;
+        }
+
+        .img3{
+            padding-top: 10vh;
+            height: 63vh;
+            width: 45vw;
+        }
+
+        .img5{
+            height: 100vh;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+
+        <img class="img5"  src="./img5.jpg" alt="img5">
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#project">Project</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+     <div class="gallery">
+        <img src="./img2.avif" alt="m1">
+        <img src="./img3.avif" alt="m2">
+        <img src="./img4.avif" alt="m3">
+      </div>
+
+      <footer>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo placeat consectetur <br> quasi, molestiae omnis fugiat pariatur totam dolorum dolore! Vero consequatur <br> quaerat magnam possimus ut quam veritatis, quisquam hic minima consequuntur <br> doloremque, debitis dolorem mollitia totam alias eius provident illum? Nostrum <br> exercitationem quidem iure? Architecto nulla nesciunt ad nobis aliquam?Lorem
+            <br>ipsum dolor sit amet consectetur adipisicing elit. Quidem veritatis dolorem iste <br>  minima rerum similique atque laborum blanditiis, dolore ratione molestiae doloribus <br> labore, nobis sunt earum iure, dolores rem animi quas sequi error consequuntur? Sint <br> minus repellendus facere nemo nobis vitae itaque commodi et quaerat magni <br> maxime quam deserunt quod quis illo atque accusamus explicabo id suscipit, sed a, <br> error, inventore ut maiores? Necessitatibus obcaecati cum delectus quos incidunt, <br> adipisci molestias laboriosam, cumque amet itaque rem fugit dolores totam id nemo <br> non quae mollitia blanditiis cupiditate assumenda. Ex vitae libero deleniti,<br>dignissimos ratione voluptates consequuntur quae expedita. In, temporibus facilis?</p>
+
+            <div>
+                <img class="img3" src ="./img5.avif" alt="industry">
+            </div>
+            
+      </footer>
+</body>
+</html>
+ 
